@@ -1,0 +1,160 @@
+/* App CSS */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 250vh;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  margin: 40px 0px;
+}
+
+.heading h1 span{
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+
+.showCards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 40px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+}
+
+.innerContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box{
+  width: 70%;
+  position: relative;
+  top: 40px;
+}
+
+.box-rev{
+  width: 70%;
+  position: relative;
+  top: 20px;
+}
+
+/* App CSS */
+
+/* Cards CSS */
+
+.cardContainer {
+  width: 16rem;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cardContainer h5{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 0.75rem;
+}
+
+.cardContainer p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: grey;
+  font-size: 0.7em;
+}
+
+.cardContainer .img-org{
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.rev-img{
+  margin-bottom: 6px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.imgContainer{
+  border-left: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+  border-radius: 0px 0px 65px 65px;
+  margin-top: 54px;
+}
+
+.imgContainer-rev{
+  border-left: 2px solid grey;
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+  border-radius: 65px 65px 0px 0px;
+}
+
+.index{
+  background-color: orangered;
+  padding: 10px 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: 106px;
+}
+
+.index-rev{
+  background-color: orangered;
+  padding: 10px 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: -153px;
+  left: 106px;
+}
+
+.indexContainer {
+  position: relative;
+}
+
+.iconsContainer{
+  display: flex;
+  justify-content: space-between;
+  color:orangered;
+  position: relative;
+  margin-top: 20px;
+}
+
+.icon1{
+  position: absolute;
+  top: 34px;
+  right: -7px;
+}
+
+.icon2{
+  position: absolute;
+  top: 34px;
+  left: -8px;
+}
+
+/* Cards CSS */
