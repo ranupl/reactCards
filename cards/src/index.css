@@ -1,5 +1,3 @@
-/* App CSS */
-
 *{
   margin: 0;
   padding: 0;
@@ -63,10 +61,6 @@
   position: relative;
   top: 20px;
 }
-
-/* App CSS */
-
-/* Cards CSS */
 
 .cardContainer {
   width: 16rem;
@@ -157,4 +151,10 @@
   left: -8px;
 }
 
-/* Cards CSS */
+.lastIndexIcon{
+  color: white;
+  position: relative;
+  left: 212px;
+  top: 25px;
+  font-weight: bold;
+}

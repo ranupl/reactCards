@@ -17,7 +17,7 @@ function App() {
           <div className="cards">
             {data.map((item, index) => {
               return (
-                <Card key={index} data={item} index={index} len={length} />
+                <Card key={index} data={item} index={index} length={length} />
               );
             })}
           </div>

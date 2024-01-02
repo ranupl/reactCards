@@ -1,5 +1,4 @@
 import React from "react";
-import women from "../images/women.jpg";
 import { TbTriangleFilled } from "react-icons/tb";
 import { TbTriangleInvertedFilled } from "react-icons/tb";
 import { TbTriangleInverted } from "react-icons/tb";
@@ -18,12 +17,14 @@ const Card = ({ data, index, length }) => {
           </div>
           <div className="iconsContainer">
             <span className="icon1">
-              {/* <FaRegCircle /> */}
-              <TbTriangleInvertedFilled />
+              {index == length - 1 ? (
+                <FaRegCircle />
+              ) : (
+                <TbTriangleInvertedFilled />
+              )}
             </span>
             <span className="icon2">
-              {/* <TbTriangleInverted />  */}
-              <TbTriangleFilled />
+              {index === 0 ? <TbTriangleInverted /> : <TbTriangleFilled />}
             </span>
           </div>
           <div className="imgContainer">
@@ -42,6 +43,9 @@ const Card = ({ data, index, length }) => {
       ) : (
         <div className="cardContainer">
           <div className="imgContainer-rev">
+            <span className="lastIndexIcon">
+              {index == length - 1 && <FaRegCircle />}
+            </span>
             <img
               src={data.imageURL}
               alt=""
